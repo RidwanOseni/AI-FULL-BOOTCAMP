@@ -25,17 +25,40 @@ To get started with this project, you need to have Python and pip installed on y
 5. Install the required packages:
     pip install openai
 
-# Usage
+### 1. Text Generation
 
-To run the text completion script, use the following command:
+**Directory**: `text-completion`
+
+This task involved using OpenAI’s language models to generate text-based responses for specific prompts. The main goal was to test different models for text completion, chat responses, and other NLP tasks.
+
+**Steps:**
+1. Set up a virtual environment.
+2. Installed necessary packages such as `openai`.
+3. Ran multiple tests with models like `gpt-3.5-turbo`, `gpt-4`, and `gpt-4-0125-preview`.
+4. To run the text completion script, use the following command:
     python script.py
-Make sure to set your OpenAI API key in your environment variables before running the script.
+    (Make sure to set your OpenAI API key in your environment variables before running the script.)
+
+
+### 2. Image Generation
+
+**Directory**: `image-generation`
+
+This task involved using AI models for generating images from text prompts. The aim was to evaluate the quality, creativity, and response time of AI image generation models.
+
+**Steps:**
+1. Continued within the existing virtual environment set up for text generation.
+2. Installed required packages (if any additional were needed for image generation).
+3. Ran tests using OpenAI's image generation API to create visuals based on various prompts.
+4. To run the image generation script, use the following command:
+    python script.py
+    (Make sure to set your OpenAI API key in your environment variables before running the script.)
+
 
 # Future Work
 
 I plan to expand this project to include:
 
-Image generation tasks with various AI models.
 Experiments with computer vision applications.
 Stay tuned for updates!
 
